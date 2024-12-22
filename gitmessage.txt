@@ -1,0 +1,31 @@
+#|<--------------COMMIT START------------------->|
+#|<--------------SUBJECT START------------------>|
+#[project][type]subject
+
+#Type can be 
+#    feature     (new feature)
+#    fix      (bug fix)
+#    refactor (refactoring production code)
+#    test     (adding or refactoring tests; no production code change)
+#    style    (formatting, missing semi colons, etc; no code change)
+#    docs     (changes to documentation)
+#|<--------------SUBJECT END-------------------->|
+
+#|<--------------DETAIL START------------------->|
+#<Why>
+# Explain why this change is being made
+# Provide links or keys to any relevant tickets, articles or other resources
+
+#<What>
+# Explain what has been changed to meet the Why
+
+#<Results/Tests>
+# Provide test details 
+
+#<Todos>
+# Provide what are the following todos 
+
+#<Additional Details>
+#|<--------------DETAIL END--------------------->|
+
+#|<--------------COMMIT END--------------------->|

@@ -1,0 +1,22 @@
+[user]
+  name = Sean Sheng
+  email = sean.sheng@unity3d.com
+[init]
+  defaultBranch = main
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+[commit]
+  template = ~/.gitmessage.txt
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  lg = log -p
+
